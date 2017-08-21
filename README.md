@@ -1,6 +1,13 @@
 # brand-center
 
-> 美问·品牌中心
+> vue 单页应用 项目模板
+集成了
+1. iconfont
+2. axios
+3. 基础less
+4. 基础路由、指令及过滤器
+5. 基础postcss插件（px2rem：移动端适配）
+6. 项目分层，结构清晰，易于拓展
 
 ## Build Setup
 
@@ -26,5 +33,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
