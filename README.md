@@ -1,4 +1,4 @@
-# brand-center
+# vue-spa-template
 
 > vue 单页应用 项目模板
 集成了
