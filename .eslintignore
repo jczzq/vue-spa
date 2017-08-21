@@ -1,0 +1,5 @@
+build/*.js
+config/*.js
+src/style/fonts/*.js
+src/vendor/*.js
+src/plugin/*.js
