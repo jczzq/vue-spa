@@ -1,7 +1,7 @@
 {
-  "name": "brand-center",
+  "name": "vue-spa-template",
   "version": "1.0.0",
-  "description": "美问·品牌中心",
+  "description": "a spa project template of vue",
   "author": "jczzq <1195262383@qq.com>",
   "private": true,
   "scripts": {
