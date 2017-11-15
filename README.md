@@ -1,7 +1,11 @@
 # vue-spa-template
 
 > vue 单页应用 项目模板
-集成了
+
+## 开箱即用
+
+假如你已经安装了`vue-cli`,那么你只需运行以下 `vue init jczzq/vue-spa <ProjectName>` 命令即可运行一个成熟且完善的单页应用，相比官方提供的模板，已经帮你准备好了以下：
+
 1. iconfont
 2. axios
 3. 基础less
@@ -9,27 +13,11 @@
 5. 基础postcss插件（px2rem：移动端适配）
 6. 项目分层，结构清晰，易于拓展
 
-## Build Setup
+``` 
+vue init jczzq/vue-spa <ProjectName>
 
-``` bash
-# install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
+接下来你只需要堆积木就够了
