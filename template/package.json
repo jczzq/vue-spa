@@ -1,8 +1,8 @@
 {
-  "name": "vue-spa-template",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "a spa project template of vue",
-  "author": "jczzq <1195262383@qq.com>",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

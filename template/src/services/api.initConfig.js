@@ -15,11 +15,5 @@ export default {
     getBankList() {
         var url = '/api/bank/list?date=' + Date.now();
         return request(url);
-    },
-    // 4.获取营业范围
-    getBusinessScope() {
-        var url = '/api/businessScope/list';
-        return request(url);
     }
-
 };
