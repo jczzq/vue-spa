@@ -1,6 +1,6 @@
-# vue-spa-template
+# vue-spa-project
 
-> vue 单页应用 项目模板
+> vue 单页应用
 集成了
 1. iconfont
 2. axios

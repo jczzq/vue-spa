@@ -1,55 +1,35 @@
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/904724/22470179/b84f58d8-e7ce-11e6-995b-0933711ca566.png"></p>
+# vue-spa-template
 
+> vue 单页应用 项目模板
+集成了
+1. iconfont
+2. axios
+3. 基础less
+4. 基础路由、指令及过滤器
+5. 基础postcss插件（px2rem：移动端适配）
+6. 项目分层，结构清晰，易于拓展
 
-# Nuxt.js with Express
+## Build Setup
 
-> [ExpressJS](http://expressjs.com/) + [Nuxt.js](https://nuxtjs.org) = :zap:
+``` bash
+# install dependencies
+npm install
 
-## Installation
+# serve with hot reload at localhost:8080
+npm run dev
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
+# build for production with minification
+npm run build
 
-```bash
-vue init nuxt-community/express-template <project-name>
-cd <project-name> # move to your project
-npm install # or yarn install
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
-
-> Make sure to use a version of vue-cli >= 2.1 (vue -V).
-
-## ExpressJS Changes
-
-- There is a  `server` directory with the root of your `express` server.
-- The `routes` directory is called `server/api`.
-
-## Commands
-
-| Command | Description |
-|---------|-------------|
-| npm run dev | Start ExpressJS server in development with Nuxt.js in dev mode (hot reloading). Listen on [http://localhost:3000](http://localhost:3000). |
-| npm run build | Build the nuxt.js web application for production. |
-| npm start | Start ExpressJS server in production. |
-
-## Backpack
-
-We use [backpack](https://github.com/palmerhq/backpack) to watch and build the application, so you can use the latest ES6 features (module syntax, async/await, etc.).
-
-## Live Demo
-
-[https://express.nuxtjs.org](https://express.nuxtjs.org)
-
-## Examples
-
-- [Handling Protected SSR Routes](https://github.com/nuxt/express/blob/master/protected-ssr-api.md)
-
-## Documentation
-
-- [ExpressJS](http://expressjs.com/en/guide/routing.html)
-- [Nuxt.js](https://nuxtjs.org/guide/)
-- [Vue.js](http://vuejs.org/guide/)
-
-## Licenses
-
-- [ExpressJS license](https://github.com/expressjs/express/blob/master/LICENSE)
-- [NuxtJS license](https://github.com/nuxt/nuxt.js/blob/master/LICENSE.md)
-- [VueJS license](https://github.com/vuejs/vue/blob/master/LICENSE)
